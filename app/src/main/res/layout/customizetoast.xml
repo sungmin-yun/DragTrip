@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:id="@+id/toastlogo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dragtriplogo"/>
+    <TextView
+        android:id="@+id/toastText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="안녕하세요"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
