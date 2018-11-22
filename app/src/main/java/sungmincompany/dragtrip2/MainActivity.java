@@ -98,6 +98,9 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.fragment, new PathFragment());
                 fragmentTransaction.commit();
 
+                Intent intent = getPackageManager().getLaunchIntentForPackage("dji.go.v4");
+
+                startActivity(intent);
 
             }
         });

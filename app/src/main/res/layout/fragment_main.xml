@@ -13,9 +13,6 @@
         android:textSize="80dp"
         android:textColor="#000000"/>
 
-    <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:src="@drawable/dragtriplogo4"/>
+
 
 </FrameLayout>

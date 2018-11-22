@@ -30,10 +30,10 @@
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
-            android:layout_marginLeft="30dp"
-            android:src="@drawable/dragtriplogo2" />
+            android:src="@drawable/dragtriplogo5" />
     </LinearLayout>
 
     <LinearLayout
@@ -82,7 +82,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:background="#FFFFFF"
-                android:text="나만의 여행"
+                android:text="드론 호출"
                 android:textColor="#000000"
                 android:textSize="18dp" />
         </LinearLayout>
@@ -103,7 +103,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
                 android:background="#FFFFFF"
-                android:text="소셜"
+                android:text="설정"
                 android:textColor="#000000"
                 android:textSize="18dp" />
         </LinearLayout>
